@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node modules
+node_modules/
+
+# Frontend
+frontend/dist/
+frontend/.vite/
+frontend/.env
+
+# Backend
+backend/.env
+backend/logs/
+
+# Terraform
+infra/.terraform/
+infra/terraform.tfstate
+infra/terraform.tfstate.backup
+infra/terraform.tfvars
+
+# Summary and implementation files (not for git)
+COMPLETION_SUMMARY.md
+FINAL_IMPLEMENTATION_SUMMARY.md
+IMPLEMENTATION_PROGRESS.md
+PHASE_1_3_COMPLETION_SUMMARY.md
+REMAINING_IMPLEMENTATION.md
+FRONTEND_COMPLETION_SUMMARY.md
+INFRASTRUCTURE_COMPLETION_SUMMARY.md
+
+# Keep these documentation files
+!QUICK_START.md
+!LOCAL_DEVELOPMENT.md
